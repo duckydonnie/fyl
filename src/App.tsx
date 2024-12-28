@@ -1,5 +1,5 @@
 import { useAuthenticator } from "@aws-amplify/ui-react";
-import BioPageMaker from "./components/BioPageMaker"; // Ensure this path is correct
+import BioPageMaker from "./components/BioPageMaker";
 
 function App() {
   const { user, signOut } = useAuthenticator();
